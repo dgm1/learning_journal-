@@ -9,7 +9,7 @@ from ..models import (
     DBSession,
     Base,
     )
-from .security import EntryFactory
+from ..security import EntryFactory
 
 
 def main(global_config, **settings):
