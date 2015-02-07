@@ -27,7 +27,7 @@ def usage(argv):
 
 
 def main(argv=sys.argv):
-    manager = BCRYPTPasswordManager()
+    manager = Manager()
     if len(argv) < 2:
         usage(argv)
     config_uri = argv[1]
